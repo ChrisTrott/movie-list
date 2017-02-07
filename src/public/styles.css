@@ -1,0 +1,34 @@
+body {
+  width: 100%;
+}
+
+#app {
+  margin: auto;
+  width: 600px;
+}
+
+#search-area,
+#movie-list {
+  width: 100%;
+}
+
+#search-area input {
+  width: 90%;
+  margin: 2%;
+  padding: 1%;
+}
+
+.movie-fav button,
+.movie-result button,
+#sort-fav,
+#btn-movie-clear {
+  float: right;
+}
+
+.message-error {
+  width: 100%;
+  padding: 2%;
+  border: 1px solid red;
+  border-radius: 3px;
+  background-color: #EEA5A5;
+}
